@@ -105,6 +105,31 @@
 	font-size: 18px;
 }
 
+.small-cards-row {
+ 	width: 100%;
+ 	height: 250px;
+ 	border: 1px solid red;
+ 	display: flex;
+ 	flex-flow: row nowrap;
+ 	padding: 30px; 
+ 	justify-content: space-around;
+
+}
+
+.small-cards-row div {
+
+	height: 150px;
+	border: 1px solid green;
+	flex: 1;
+	
+	
+}
+
+.small-cards-row div:not(:first-child){
+
+	margin-left: 35px;
+	
+}
 
 
 
